@@ -8,15 +8,19 @@ redirect_from:
 ---
 Hello, I'm Yuxin Yang!
 
-I am a 3rd year Ph.D. student at the University of Southern California, advised by [Prof. Viktor Prasanna](https://sites.usc.edu/prasanna/). My research spans Graph Neural Networks (GNNs) and LLMs. I am currently working on building and developing training algorithms for LLM agentic systems. [[resume]](/files/cv_phd.pdf)
+I am a 3rd year Ph.D. student at the University of Southern California, advised by [Prof. Viktor Prasanna](https://sites.usc.edu/prasanna/). My research focuses on Graph Neural Networks (GNNs) and Large Language Models (LLMs), with a particular interest in building and scaling agentic LLM systems. [[resume]](/files/cv_phd.pdf)
 
-Before joining USC, I received my B.S. degree from the Department of Automation at Tsinghua University, where I had the opportunity to work with [Prof. Muhan Zhang](https://muhanzhang.github.io/), [Prof. Yitao Liang](https://scholar.google.com/citations?user=KVzR1XEAAAAJ&hl=en), and [Prof. Yilin Mo](https://yilinmo.github.io/).
+Before joining USC, I received my B.E. degree from the Department of Automation at Tsinghua University. I had the opportunity to work with [Prof. Muhan Zhang](https://muhanzhang.github.io/), [Prof. Yitao Liang](https://scholar.google.com/citations?user=KVzR1XEAAAAJ&hl=en), and [Prof. Yilin Mo](https://yilinmo.github.io/).
 
 My work is supported by the Capital One Fellowship (2024-2025, 2025-2026).
 
 Selected Publications
 ======
 Asterisk (\*) indicates equal contribution.
+
+SPARC-RAG: Adaptive Sequential-Parallel Scaling with Context Management for Retrieval-Augmented Generation<br>
+<u>Yuxin Yang</u>, Gangda Deng, Ömer Faruk Akgül, Nima Chitsazan, Yash Govilkar, Akasha Tigalappanavara, Shi-Xiong Zhang, Sambit Sahu, Viktor Prasanna<br>
+*Preprint, 2026* [[paper](https://arxiv.org/abs/2602.00083)]
 
 SAGERec: Sampling and Gating for Enhanced Long-Tail Item Recommendations<br>
 Abdulla Alshabanah, <u>Yuxin Yang</u>, Murali Annavaram<br>
