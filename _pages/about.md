@@ -20,7 +20,7 @@ Asterisk (\*) indicates equal contribution.
 
 SPARC-RAG: Adaptive Sequential-Parallel Scaling with Context Management for Retrieval-Augmented Generation<br>
 <u>Yuxin Yang</u>, Gangda Deng, Ömer Faruk Akgül, Nima Chitsazan, Yash Govilkar, Akasha Tigalappanavara, Shi-Xiong Zhang, Sambit Sahu, Viktor Prasanna<br>
-*ACL 2026 (Under Review)* [[paper](https://arxiv.org/abs/2602.00083)]
+*ACL, 2026 (Under Review)* [[paper](https://arxiv.org/abs/2602.00083)]
 
 SAGERec: Sampling and Gating for Enhanced Long-Tail Item Recommendations<br>
 Abdulla Alshabanah, <u>Yuxin Yang</u>, Murali Annavaram<br>
@@ -32,7 +32,7 @@ Gangda Deng\*, <u>Yuxin Yang</u>\*, Ömer Faruk Akgül\*, Hanqing Zeng, Yinglong
 
 RECIPE-TKG: From Sparse History to Structured Reasoning for LLM-based Temporal Knowledge Graph Completion<br>
 Ömer Faruk Akgül\*, Feiyu Zhu\*, <u>Yuxin Yang</u>, Rajgopal Kannan, Viktor Prasanna<br>
-*EACL 2026 (Accepted)* [[paper](https://arxiv.org/abs/2505.17794)]
+*EACL, 2026* [[paper](https://arxiv.org/abs/2505.17794)]
 
 Towards Ideal Temporal Graph Neural Networks: Evaluations and Conclusions after 10,000 GPU Hours<br>
 <u>Yuxin Yang</u>, Hongkuan Zhou, Rajgopal Kannan, Viktor Prasanna<br>
