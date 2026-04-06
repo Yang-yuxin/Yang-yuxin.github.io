@@ -24,7 +24,7 @@ SPARC-RAG: Adaptive Sequential-Parallel Scaling with Context Management for Retr
 
 SAGERec: Sampling and Gating for Enhanced Long-Tail Item Recommendations<br>
 Abdulla Alshabanah, <u>Yuxin Yang</u>, Murali Annavaram<br>
-*WSDM, 2026*
+*WSDM, 2026* [[paper](https://dl.acm.org/doi/10.1145/3773966.3778004)]
 
 Training Diverse Graph Experts for Ensembles: A Systematic Empirical Study<br>
 Gangda Deng\*, <u>Yuxin Yang</u>\*, Ömer Faruk Akgül\*, Hanqing Zeng, Yinglong Xia, Rajgopal Kannan, Viktor Prasanna<br>
