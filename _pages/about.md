@@ -20,7 +20,7 @@ Asterisk (\*) indicates equal contribution.
 
 SPARC-RAG: Adaptive Sequential-Parallel Scaling with Context Management for Retrieval-Augmented Generation<br>
 <u>Yuxin Yang</u>, Gangda Deng, Ömer Faruk Akgül, Nima Chitsazan, Yash Govilkar, Akasha Tigalappanavara, Shi-Xiong Zhang, Sambit Sahu, Viktor Prasanna<br>
-*ACL, 2026 (Under Review)* [[paper](https://arxiv.org/abs/2602.00083)]
+*ACL, 2026* [[paper](https://arxiv.org/abs/2602.00083)]
 
 SAGERec: Sampling and Gating for Enhanced Long-Tail Item Recommendations<br>
 Abdulla Alshabanah, <u>Yuxin Yang</u>, Murali Annavaram<br>
