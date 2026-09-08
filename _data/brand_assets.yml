@@ -1,0 +1,17 @@
+# Official compact institution symbols, retrieved 2026-09-07.
+capital_one:
+  file: /images/logos/capital-one.svg
+  source: https://www.capitalone.com/about/newsroom/
+  note: Original full wordmark from the official newsroom header SVG.
+bytedance:
+  file: /images/logos/bytedance-mark.png
+  source: https://www.bytedance.com/en/
+  note: Original 300 x 300 symbol embedded in the official site favicon.
+bigai:
+  file: /images/logos/bigai-mark.png
+  source: https://www.bigai.ai/
+  asset_url: https://www.bigai.ai/wp-content/uploads/2022/10/cropped-80x80-1-192x192.png
+tsinghua:
+  file: /images/logos/tsinghua-seal.png
+  source: https://www.tsinghua.edu.cn/__local/C/B6/1C/5682B1124834BFE4B7BB43744CF_C7C409E3_C2FAA.pdf
+  note: Original university seal rendered from Appendix I on page 15.

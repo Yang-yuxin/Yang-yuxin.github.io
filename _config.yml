@@ -11,8 +11,8 @@ locale                   : "en-US"
 title                    : "Yuxin Yang"
 title_separator          : "-"
 name                     : &name "Yuxin Yang"
-description              : &description "Yuxin Yang - Ph.D. student at University of Southern California (USC), advised by Prof. Viktor Prasanna. Research in Graph Neural Networks (GNNs), Large Language Models (LLMs), and agentic AI systems. B.E. from Tsinghua University."
-keywords                 : "Yuxin Yang, USC, University of Southern California, Viktor Prasanna, Graph Neural Networks, GNN, Large Language Models, LLM, agentic AI, Tsinghua University, Ph.D. student, Computer Science, machine learning, deep learning"
+description              : &description "Yuxin Yang - Ph.D. student at University of Southern California (USC), advised by Prof. Viktor Prasanna. Research in Graph Neural Networks (GNNs), Large Language Models (LLMs), agentic AI systems, and generative recommendation. B.E. from Tsinghua University."
+keywords                 : "Yuxin Yang, USC, University of Southern California, Viktor Prasanna, Graph Neural Networks, GNN, Large Language Models, LLM, agentic AI, generative recommendation, Tsinghua University, Ph.D. student, Computer Science, machine learning, deep learning"
 url                      : https://Yang-yuxin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Yang-yuxin/Yang-yuxin.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Yuxin Yang"
   pronouns         : # example: "she/her"  
-  bio              : "3rd year Ph.D. student @ USC"
+  bio              : "Ph.D. student @ USC"
   location         : "Los Angeles"
   # employer         : "University of Southern California"
   uri              : # URL
@@ -175,6 +175,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - log
+  - local
   - node_modules
   - package.json*
   - Rakefile

@@ -93,3 +93,9 @@ h1:first-child, h2:first-child {
 .page__content p + p {
   margin-top: 1.2em;
 }
+
+@import "homepage";
+
+// Inline profile icons remain visible without downloaded icon fonts.
+.profile-icon { width: 1em; height: 1em; display: inline-block; flex-shrink: 0; vertical-align: -.12em; }
+.author__urls .profile-icon { width: 1.15em; margin-right: .65em; }

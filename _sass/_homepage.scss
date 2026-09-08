@@ -1,0 +1,130 @@
+/* Personal homepage: an open introduction and a readable research list. */
+.homepage {
+  color: #3d434c;
+  background: #fff;
+
+  #main { display: block; max-width: 1100px; margin: 54px auto 0; padding: 0 40px; }
+  #main::before, #main::after { display: none; }
+  .page { float: none; width: 100%; min-width: 0; padding: 0; margin: 0; }
+  .masthead { border-bottom: 1px solid #eee; background: #fff; }
+  .masthead__inner-wrap { max-width: 1100px; padding-right: 40px; padding-left: 40px; }
+  .masthead__menu-item a { color: #343b45; }
+  .greedy-nav button { background: #fff; color: #56606b; border-radius: 3px; }
+  .greedy-nav button:focus-visible { outline: 2px solid #286582; outline-offset: 2px; }
+  .greedy-nav .navicon, .greedy-nav .navicon::before, .greedy-nav .navicon::after { width: 22px; height: 2px; background: #56606b; }
+  .greedy-nav .navicon::before { top: -6px; }
+  .greedy-nav .navicon::after { bottom: -6px; }
+  .greedy-nav button.close .navicon { background: transparent; }
+  .greedy-nav button.close .navicon::before { top: 0; }
+  .greedy-nav button.close .navicon::after { bottom: 0; }
+  .page__footer { background: #fafafa; border-top-color: #eee; }
+  .page__footer footer { max-width: 1100px; padding-right: 40px; padding-left: 40px; }
+
+  .home-profile {
+    --home-accent: #a94c2a;
+    --home-link: #286582;
+    font-size: 16px;
+    line-height: 1.75;
+    p { margin: 0 0 16px; }
+    p + p { margin-top: 0; }
+    p strong { font-weight: 600 !important; }
+    a { color: var(--home-link); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: #a94c2a; }
+    a:focus-visible { outline: 2px solid var(--home-link); outline-offset: 5px; border-radius: 2px; }
+    h1, h2, h3 { color: #272e36; }
+    h1 { font-size: 45px; letter-spacing: -1.6px; line-height: 1.15; font-weight: 600 !important; margin: 0 0 26px !important; }
+    h1 span { color: var(--home-accent); }
+    h2 { font-size: 25px; letter-spacing: -.5px; line-height: 1.35; font-weight: 500 !important; margin: 0 0 22px !important; padding: 0; border: 0; }
+    h3 { font-size: 18px; line-height: 1.45; margin: 0; font-weight: 600; }
+  }
+
+  .home-intro { scroll-margin-top: 100px; display: grid; grid-template-columns: minmax(0, 1fr) 238px; align-items: start; gap: 58px; padding: 12px 0 50px; }
+  .home-profile .home-lead { font-size: 17px; color: #383f48; }
+  .home-profile .home-portrait { margin: 19px 0 0; }
+  .home-portrait img { display: block; width: 238px; height: 238px; object-fit: cover; border-radius: 50%; }
+  .home-portrait figcaption { display: flex; justify-content: center; align-items: center; gap: 7px; margin-top: 19px; color: #737980; font-size: 12px; font-style: normal; }
+  .home-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 23px; margin-top: 23px; }
+  .home-profile .home-actions a { display: inline-flex; align-items: center; gap: 7px; min-height: 36px; font-size: 13px; text-decoration: none; font-weight: 500; }
+  .home-profile .home-actions a:hover { text-decoration: underline; }
+  .home-actions .profile-icon { font-size: 15px; }
+  .home-section { scroll-margin-top: 100px; }
+
+  .home-experience { border-top: 1px solid #e5e6e8; padding-top: 33px; }
+  .experience-list { display: grid; }
+  .experience-row { display: grid; grid-template-columns: 68px minmax(0, 1fr); align-items: center; gap: 25px; padding: 20px 0; border-bottom: 1px solid #ededee; }
+  .experience-row:last-child { border-bottom: 0; padding-bottom: 4px; }
+  .company-logo { display: flex; align-items: center; justify-content: center; height: 62px; width: 62px; }
+  .company-logo img { width: 54px; height: 54px; object-fit: contain; max-width: 100%; display: block; }
+  .company-logo--capital-one { width: 80px; }
+  .company-logo--capital-one img { width: 80px; height: auto; }
+  .home-profile .company-logo:hover img { box-shadow: none; }
+  .experience-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 3px 16px; margin-bottom: 5px; }
+  .experience-heading h3 { font-size: 16px; }
+  .experience-heading h3 span { color: #72777f; font-size: 13px; font-weight: 400; margin-left: 10px; }
+  .home-profile .experience-date { font-size: 12px; color: #737980; margin: 0; white-space: nowrap; }
+  .home-profile .experience-content > p { font-size: 13px; line-height: 1.7; margin: 0; color: #616870; }
+  .fellowship-year { white-space: nowrap; }
+
+  .home-research { margin-top: 55px; }
+  .section-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 0 20px; margin-bottom: 2px; }
+  .home-profile .section-heading > p { font-size: 12px; color: #7a7f85; margin: 0 0 18px; }
+  .section-heading > p a { margin-left: 13px; }
+  .publication { padding: 27px 0; border-top: 1px solid #e3e5e8; }
+  .home-profile .publication-venue { font-size: 12px; line-height: 1.5; letter-spacing: .1px; color: #a14b2b; font-weight: 600; margin: 0 0 9px; }
+  .publication-venue span { margin-left: 10px; color: #777b82; font-weight: 400; }
+  .home-profile .publication h3 { font-size: 19px; line-height: 1.45; font-weight: 500; }
+  .home-profile .publication h3 a { color: #272e36; text-decoration: none; }
+  .home-profile .publication h3 a:hover { color: var(--home-link); text-decoration: underline; }
+  .home-profile .publication-authors { font-size: 12px; line-height: 1.75; color: #747980; margin: 8px 0; }
+  .self-author { color: #434a53; font-weight: 600; }
+  .home-profile .publication-summary { font-size: 14px; line-height: 1.7; color: #555e69; margin: 0 0 4px; }
+  .publication-links { display: flex; align-items: center; flex-wrap: wrap; gap: 13px; }
+  .home-profile .publication-links a { width: 28px; height: 28px; font-size: 17px; line-height: 1; text-decoration: none; display: inline-flex; align-items: center; justify-content: flex-start; }
+  .home-profile .publication-links a:hover { text-decoration: underline; }
+  .home-interests { margin-top: 18px; padding-top: 32px; border-top: 1px solid #e3e5e8; }
+  .home-profile .home-interests h2 { margin-bottom: 16px !important; }
+  .home-profile .home-interests p { color: #626a74; font-size: 14px; max-width: 800px; }
+
+  @media (max-width: 900px) {
+    #main { padding: 0 30px; margin-top: 35px; }
+    .masthead__inner-wrap, .page__footer footer { padding-right: 30px; padding-left: 30px; }
+    .home-intro { grid-template-columns: minmax(0, 1fr) 190px; gap: 30px; }
+    .home-portrait img { width: 190px; height: 190px; }
+    .home-profile h1 { font-size: 38px; }
+    .home-profile .home-lead { font-size: 16px; }
+    .home-profile { font-size: 15px; }
+    .home-actions { gap: 5px 18px; }
+  }
+
+  @media (max-width: 640px) {
+    #main { margin-top: 20px; padding: 0 23px; }
+    .masthead__inner-wrap, .page__footer footer { padding-right: 23px; padding-left: 23px; }
+    .home-intro { display: flex; flex-direction: column; gap: 22px; padding: 0 0 30px; }
+    .home-profile h1 { font-size: 35px; letter-spacing: -1px; margin-bottom: 20px !important; }
+    .home-profile .home-portrait { order: -1; margin: 0; display: flex; align-items: center; gap: 16px; }
+    .home-portrait img { width: 100px; height: 100px; }
+    .home-portrait figcaption { font-size: 11px; margin: 0; }
+    .home-profile h2 { font-size: 23px; }
+    .home-actions { gap: 3px 20px; margin-top: 20px; }
+    .home-profile .home-actions a { min-height: 40px; }
+    .home-experience { padding-top: 28px; }
+    .experience-row { grid-template-columns: 48px minmax(0, 1fr); gap: 16px; align-items: start; padding: 20px 0; }
+    .company-logo { width: 48px; height: 48px; margin-top: 3px; }
+    .company-logo img { width: 44px; height: 44px; }
+    .company-logo--capital-one { width: 60px; }
+    .company-logo--capital-one img { width: 60px; height: auto; }
+    .experience-heading h3 span { display: block; margin: 3px 0 1px; }
+    .home-profile .experience-date { font-size: 11px; margin-bottom: 4px; }
+    .home-profile .experience-content > p { font-size: 12px; }
+    .home-research { margin-top: 40px; }
+    .publication { padding: 25px 0; }
+    .home-profile .publication h3 { font-size: 18px; }
+    .home-profile .publication-links a { width: 38px; height: 36px; }
+  }
+
+
+  @media print {
+    #main { margin-top: 0; padding: 0; }
+    .home-intro, .experience-row, .publication { break-inside: avoid; }
+  }
+}

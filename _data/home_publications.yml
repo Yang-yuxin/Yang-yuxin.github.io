@@ -1,0 +1,77 @@
+# Selected publications in display order.
+- title: 'SPARC-RAG: Adaptive Sequential-Parallel Scaling with Context Management for Retrieval-Augmented Generation'
+  url: https://arxiv.org/abs/2602.00083
+  authors: <span class="self-author">Yuxin Yang</span>, Gangda Deng, Ömer Faruk Akgül, Nima Chitsazan, Yash Govilkar, Akasha Tigalappanavara,
+    Shi-Xiong Zhang, Sambit Sahu, Viktor Prasanna
+  venue: EMNLP 2026
+  detail: Main Conference
+  summary: A multi-agent RAG framework that coordinates sequential and parallel reasoning through shared context management.
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2602.00083
+- title: 'SWE-Milestone: Evaluating AI Agents on Continuous Software Evolution'
+  url: https://arxiv.org/abs/2603.13428
+  authors: Gangda Deng, Zhaoling Chen, Zhongming Yu, Haoyang Fan, Yuhong Liu, <span class="self-author">Yuxin Yang</span>, Dhruv Parikh, Rajgopal
+    Kannan, Le Cong, Mengdi Wang, Qian Zhang, Viktor Prasanna, Xiangru Tang, Xingyao Wang
+  venue: ICML 2026
+  detail: ''
+  summary: Evaluating coding agents across connected milestones in a continuously evolving codebase.
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2603.13428
+  - label: Project
+    url: https://swe-milestone.com/
+  - label: Code
+    url: https://github.com/DeepCommit-ai/SWE-Milestone
+- title: 'SAGERec: Sampling and Gating for Enhanced Long-Tail Item Recommendations'
+  url: https://dl.acm.org/doi/10.1145/3773966.3778004
+  authors: Abdulla Alshabanah, <span class="self-author">Yuxin Yang</span>, Murali Annavaram
+  venue: WSDM 2026
+  detail: ''
+  summary: Learning which historical items to sample, with complementary experts and tail-aware gating for long-tail recommendation.
+  links:
+  - label: Paper
+    url: https://dl.acm.org/doi/10.1145/3773966.3778004
+  - label: Code
+    url: https://github.com/alshabae/SAGERec
+- title: 'Training Diverse Graph Experts for Ensembles: A Systematic Empirical Study'
+  url: https://arxiv.org/abs/2510.18370
+  authors: Gangda Deng*, <span class="self-author">Yuxin Yang</span>*, Ömer Faruk Akgül*, Hanqing Zeng, Yinglong Xia, Rajgopal Kannan, Viktor
+    Prasanna
+  venue: Preprint
+  detail: '2025'
+  summary: A systematic study of how training choices create complementary graph experts for more effective ensembles.
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2510.18370
+- title: 'RECIPE-TKG: From Sparse History to Structured Reasoning for LLM-based Temporal Knowledge Graph Completion'
+  url: https://arxiv.org/abs/2505.17794
+  authors: Ömer Faruk Akgül*, Feiyu Zhu*, <span class="self-author">Yuxin Yang</span>, Rajgopal Kannan, Viktor Prasanna
+  venue: EACL 2026
+  detail: ''
+  summary: Combining richer historical context, contrastive learning, and test-time filtering for temporal knowledge graph reasoning.
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2505.17794
+- title: 'Towards Ideal Temporal Graph Neural Networks: Evaluations and Conclusions after 10,000 GPU Hours'
+  url: https://dl.acm.org/doi/10.14778/3717755.3717758
+  authors: <span class="self-author">Yuxin Yang</span>, Hongkuan Zhou, Rajgopal Kannan, Viktor Prasanna
+  venue: VLDB 2025
+  detail: ''
+  summary: Over 10,000 GPU hours of controlled experiments to understand temporal GNN modules and their interactions.
+  links:
+  - label: Paper
+    url: https://dl.acm.org/doi/10.14778/3717755.3717758
+  - label: Code
+    url: https://github.com/Yang-yuxin/BenchTGNN
+- title: 'PA-GNN: Parameter-Adaptive Graph Neural Networks'
+  url: https://dynn-icml2022.github.io/spapers/paper_6.pdf
+  authors: <span class="self-author">Yuxin Yang</span>, Yitao Liang, Muhan Zhang
+  venue: ICML 2022
+  detail: DyNN Workshop, Spotlight
+  summary: Generating node-specific aggregation parameters to capture local patterns in graphs.
+  links:
+  - label: Paper
+    url: https://dynn-icml2022.github.io/spapers/paper_6.pdf
+  - label: Video
+    url: https://icml.cc/virtual/2022/19295
